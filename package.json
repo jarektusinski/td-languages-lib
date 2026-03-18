@@ -1,7 +1,7 @@
 {
-  "name": "td-languages-abbreviations",
+  "name": "td-languages-lib",
   "version": "1.0.0",
-  "description": "TypeScript/JavaScript library with 232 language abbreviations (e.g. en, pl, it). Includes typed constants and language selectors.",
+  "description": "TypeScript utilities and language metadata (names, abbreviations, locales, and text orientation).",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -17,6 +17,7 @@
     "languages",
     "language-abbreviations",
     "internationalization",
+    "regionalization",
     "localization",
     "locale",
     "language-selector",
@@ -42,5 +43,10 @@
   ],
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "td-languages-abbreviations": "^1.0.1",
+    "td-languages-locales": "^1.0.2",
+    "td-languages-names": "^1.0.2"
   }
 }
