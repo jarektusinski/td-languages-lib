@@ -54,7 +54,7 @@ type TextOrientation = {
 /**
  * Multi text orientation accepts either a single orientation object or a non-empty array of them.
  */
-type MultiTextOrientation = TextOrientation | [TextOrientation, TextOrientation, ...TextOrientation[]];
+type MultiTextOrientation = TextOrientation | [TextOrientation, ...TextOrientation[]];
 
 /**
  * Left-to-right text orientation preset.

@@ -1,7 +1,7 @@
 {
   "name": "td-languages-abbreviations",
   "version": "1.0.0",
-  "description": "TODO: Prepare desc",
+  "description": "TypeScript utilities and language metadata (names, abbreviations, locales, and text orientation).",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -45,7 +45,7 @@
   },
   "dependencies": {
     "td-languages-abbreviations": "^1.0.1",
-    "td-languages-locales": "^1.0.0",
+    "td-languages-locales": "^1.0.2",
     "td-languages-names": "^1.0.2"
   }
 }
